@@ -1,0 +1,108 @@
+.navbar {
+    background-color: #73AFFF;
+}
+
+.active {
+    background-color: #006CFF;
+}
+
+.nav-link{
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    background-color: #006CFF;
+}
+
+.btn-danger:hover {
+    background-color: white;
+    color: #006CFF;
+}
+
+.carousel-item {
+    height: 90vh;
+    background-color: transparent !important;
+}
+
+.carousel-item h5, .carousel-item p {
+    color: black;
+}
+
+.carousel-caption {
+    top: 45%;
+    left: 9%;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: start !important;
+    justify-content: start !important;
+}
+
+.carousel-control-prev:hover .carousel-btn {
+    display: block !important;
+}
+
+.carousel-control-next:hover .carousel-btn {
+    display: block !important;
+}
+
+.discover-btn {
+    background-color: #006CFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: .2s ease-in-out;
+}
+
+.discover-btn-add {
+    background-color: #081F3E;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    transition: .2s ease-in-out;
+}
+
+.discover-btn-div:hover .discover-btn-add {
+    background-color: #006CFF;
+}
+
+.discover-btn-div:hover .discover-btn {
+    background-color: #081F3E;
+}
+
+.registration {
+    background-color: #081F3E;
+}
+
+.info {
+    background-color: #006CFF;
+}
+
+.pacients-div:hover h1 {
+    color: #006CFF !important;
+}
+
+.pacients-div:hover i {
+    background-color: #006CFF !important;
+}
+
+.image-div {
+    height: 40vh !important;
+}
+
+.image-overlay {
+    transition: .3s ease-in-out;
+}
+
+.image-div:hover .image-overlay {
+    opacity: .75 !important;
+}
+
+.tool-icon {
+    font-size: 100px;
+}
+
+.heading {
+    font-size: 50px;
+}
